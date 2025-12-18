@@ -5,7 +5,7 @@ import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import React from 'react'
 
 function Hero() {
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId:string) => {
      const element = document.getElementById(sectionId);
      if (element) {
        element.scrollIntoView({ behavior: 'smooth' });
